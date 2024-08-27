@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+ }
+
+ .sidebar{
+    background-color: rgb(99, 96, 96);
+    width: 30vw;
+    font-family: 'Geologica', sans-serif;
+ }
+
+ .sidebar nav {
+   padding:48px;
+ }
+ .sidebar nav li{
+    list-style-type: none;
+    font-size: 32px;
+    padding: 32px 0;
+ }
+ .sidebar nav li a {
+   text-decoration: none;
+   color: white;
+    
+}
+ 
+
+ .main{
+   /* background-color: yellow;*/
+    width: 90vw;
+    background-color: rgb(9, 117, 117);
+ }
+
+ .container{
+    display: flex;
+
+ }
+
+ .infocontainer{
+    /*background-color: rgb(17, 108, 114);*/
+    height: 345px;
+    width:82vw;
+    margin: 160px auto;
+   display: flex;
+   justify-content: space-around; 
+   }
+   .devinfo{
+      display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+       
+   }
+   .hello{
+      font-size: 60px;
+
+   }
+   .name{
+      font-size: 80px;
+      font-weight: bold;
+      font-family: 'Geologica', sans-serif;
+   }
+   .about{
+      font-size: 60px;
+   }
+   .moreabout{
+      font-size: 30px;
+      margin-top: 25PX;
+   }
+   .buttons{
+      margin-top: 34px;
+   }
+
+   .buttons button{
+      padding: 15px;
+    border-radius: 31px;
+    color: white;
+    background-color: rgb(91, 91, 235);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+
+   }
+.buttons button:hover{
+   background-color: bisque;
+   color: darkslateblue;
+}
+
+   .devpic img {
+      width: 200px;
+}
+
+.contactform {
+   padding: 0 220px;
+   padding-top: 120px;
+   font-family: 'Geologica', sans-serif;
+    
+   background-color: rgb(9, 117, 117);
+}
+
+.contactform h1{
+   font-family: 'Geologica', sans-serif;
+   text-align: center;
+   background-color: rgb(9, 243, 243)
+    
+}  
+.contactform div{
+   padding: 8px;
+   background-color: rgb(176, 243, 243);
+   
+}
